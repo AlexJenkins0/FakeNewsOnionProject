@@ -1,0 +1,1 @@
+I made a site that allows the user to search a random article from a collection of Fake and Real articles from onion and from the reddit NotTheOnion. It also allows the user to make a guess whether they believe the article shown to them is real or fake.
