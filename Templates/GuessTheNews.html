@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    {% extends 'Index.html' %}
+    {% block content %}
+    <br>
+        <h2 id="heading"> A Random Article</h2>
+        <p id="subheading"> Do you think this article is true or fake?</p>
+    <br>
+    <br>
+        <p id="article">{{random}}</p>
+        <p id="outcome">{{verdict}}</p>
+        <p id="score">Score: {{score}}</p>
+        <p id="highscore">Highscore: {{highscore}}</p>
+    <form action ="/guesser" method="POST": >
+        <input class="choicetrue" type="submit" value="True" name="True" />
+        <input class="choicefake" type="submit" value="Fake" name="Fake" />
+        <br>
+        <input class="continue" type="submit" value="Next" name="Next" />
+    </form>
+    </div>
+
+    {% endblock %}
+</div>
+</body>
+</html>

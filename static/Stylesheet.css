@@ -1,0 +1,62 @@
+#heading{
+    font-size:60px;
+    text-align: center;
+}
+
+#subheading{
+    font-size:20px;
+    text-align: center;
+}
+
+#article{
+    font-size: 35px;
+    color:white;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #3e8ed0;
+    border: 1px solid #3e8ed0;
+    text-align: center;
+}
+
+#outcome{
+    text-align:center;
+    font-size: 30px;
+    }
+
+#score{
+    text-align:center;
+    font-size: 30px;
+    }
+
+#highscore{
+    text-align:center;
+    font-size: 30px;
+    }
+
+
+.choicetrue{
+    position: absolute;
+    left: 30%;
+    bottom: 25%;
+    width: 10%;
+    height: 15%;
+    font-size: 40px;
+}
+
+.choicefake{
+    position: absolute;
+    right: 30%;
+    bottom: 25%;
+    width: 10%;
+    height: 15%;
+    font-size: 40px;
+}
+
+.continue{
+    position: absolute;
+    right: 35%;
+    bottom: 5%;
+    font-size: 50px;
+    height: 10%;
+    width: 30%;
+    }

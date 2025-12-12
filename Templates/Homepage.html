@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='Stylesheet.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>This is for practice</title>
+</head>
+<body>
+<div>
+    {% extends 'Index.html' %}
+    {% block content %}
+    <br>
+        <h2 id="heading"> A Random Article</h2>
+        <p id="subheading"> Click on the random article button in the Navigation Bar to get a random article</p>
+    <br>
+    <br>
+    <br>
+    <br>
+        <p id="article">{{random}}</p>
+    </div>
+    {% endblock %}
+</div>
+
+</body>
+</html>
